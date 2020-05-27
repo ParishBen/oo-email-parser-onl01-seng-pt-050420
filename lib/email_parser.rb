@@ -11,6 +11,6 @@ class EmailAddressParser
    parsed= @string.split(", ")
    parsed
    parsing= @string.split(" ")
-   parsing
+   parsing parsed
   end
 end
