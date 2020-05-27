@@ -4,10 +4,8 @@
 # or whitespace (' ').
 class EmailAddressParser
   attr_accessor 
-  def initialize(string)
-    @string= string
-  end
-  def parse
-    @parse
+  def parse(string)
+   parsed= string.join(",")
+   parsed
   end
 end
