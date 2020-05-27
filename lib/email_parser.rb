@@ -9,6 +9,7 @@ class EmailAddressParser
   end
   def parse
     delimiters = [', ', ' ']
- @string.split(Regexp.union(delimiters))
+ parsedstr= @string.split(Regexp.union(delimiters))
+ parsedstr.uniq
  end
 end
